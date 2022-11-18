@@ -16,7 +16,7 @@ import '../styles/Gallery.css'
 // using gallery css styles for the resposiveness
 
 const Donate = () => {
-  const [value, setValue] = useState('1225320690sss')
+  const [value, setValue] = useState('1225320690')
   const [copied, setCopied] = useState(false)
   return (
     <>
