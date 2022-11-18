@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+
+.home_h1::after{
+content: "";
+position: absolute;
+width: 2px;
+height: 100%;
+right: -25px;
+top: -5px;
+background: #80cece;
+}
+
+.text-side h1{
+    font-size: 44px;
+}
+.text-side p{
+    font-size: 22px;
+    Line-height: 44px;
+}
+.image-side{
+    width:50%;
+}
+.call-to-action-home{
+    font-size: 18px;
+color: white;
+border: none;
+background-color: #009C9C;
+/* margin-left: 50px;
+margin-top: 40px; */
+padding: 10px  40px;
+border-radius: 3px;
+cursor: pointer;
+}
+.project1000{
+  
+    /* border: 2px solid blue; */
+   padding-left: 40px;
+    height: 400px;
+    overflow: hidden;
+/*   
+
+    background: url('./first1.jpeg'); */
+}
+
+
+@media (max-width: 780px) {
+
+.pixx{
+    width: 300px;
+    height: 200px;
+}
+    .who-we-are{
+        /* height: 500px; */
+        /* border: 2px solid  red; */
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 70px;
+       
+        font-family: 'Roboto', sans-serif;
+    }
+    .who-we-are h1{
+        font-size: 30px;
+    }
+    .who-we-are p{
+        font-size: 15px;
+        Line-height: 27px !important;
+        text-align: justify;
+    }
+    .who-image{
+        display:none;
+    }
+    .text-side{
+    width: 100%;
+    margin-top: 40px;
+    
+    }
+    .text-side h1{
+        font-size: 33px;
+    }
+    .text-side p{
+        font-size: 16px;
+        Line-height: 44px;
+    }
+ 
+    .call-to-action-home{
+        font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #009C9C;
+    /* margin-left: 50px;
+    margin-top: 40px; */
+    padding: 10px  40px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    .sec img{
+        width: 370px;
+    }
+    .project1000{
+      
+        /* border: 2px solid blue; */
+       padding-left: 0px;
+        height: 300px;
+        width: 370px;
+        overflow: hidden;
+      
+    
+      
+    }
+    .project-wrapper img{
+        width: 400px;
+        text-align: center;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .project-wrapper{
+    flex-direction: column-reverse;
+    }
+    .project-wrapper .image-side{
+        width: 100%;
+    }
+    .visit{
+        flex-direction: column;
+        
+    }
+    .visit-img{
+      display: none;
+    }
+
+    .small{
+        font-size: 18px;
+        line-height: 28px  !important;
+    }
+
+    
+
+}

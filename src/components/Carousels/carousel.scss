@@ -1,0 +1,199 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// 
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.crsl{
+  /* background-color: red; */
+  height: 500px;
+  background:linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url('../../Img/carousel.jpeg');
+  background-size: cover;
+font-family: roboto;
+  padding-top: 220px;
+
+  margin-top:65px;
+ 
+  
+
+}
+a{
+text-decoration: none;
+}
+.crsl-abt{
+height: 500px;
+
+
+
+background:linear-gradient(rgba(0, 0, 0, 0.5),
+rgba(0, 0, 0, 0.5)), url('../Carousels/img/carousel-abt.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  padding-top: 220px;
+  padding-left: 60px;
+  margin-top:65px;
+}
+.areyou{
+background:linear-gradient(rgba(0, 0, 0, 0.5),
+rgba(0, 0, 0, 0.5)), url('../../Img/AreYou.jpeg');
+background-size: cover;
+background-position: center;
+height: 250px;
+padding-top: 20px;
+
+
+
+}
+.wantTo{
+height: 350px;
+background:linear-gradient(rgba(0, 0, 0, 0.5),
+rgba(0, 0, 0, 0.5)), url('../Carousels/img/crsl3.jpeg');
+background-size: cover;
+background-position-y: -250px;
+padding-top: 150px;
+
+
+}
+
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+  padding-left: 0.5em;
+  grid-column: 1 / -1;
+  grid-row: 1;
+color: white;
+  font-size: 4vw;
+  width: 100%;
+  z-index: 2;
+
+  // start
+
+  > .title-inner {
+    display: inline-block;
+  }
+}
+
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes outer-left {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes inner-left {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.cafe,
+.mozart {
+  animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+  // outline: 1px solid red;
+}
+
+// [class*='inner'] {
+//   outline: 1px solid blue;
+// }
+
+.title-inner {
+  display: inline-block;
+  animation: inner-left 1s 1s ease both;
+}
+
+.cafe-inner {
+  display: inline-block;
+  animation: inner-left 1s 1s ease both,
+    text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.mozart-inner {
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.title {
+  animation: outer-left 1s 1s ease both;
+}
+
+.cafe {
+  // start
+  > .cafe-inner {
+    display: inline-block;
+  }
+}
+
+.mozart {
+  display: inline-block;
+}
+
+
+@media (max-width: 780px) {
+.crsl{
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  margin-top:50px;
+  padding-top: 180px;
+
+}
+.title{
+font-size: 4vh;
+}
+.areyou{
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.wantTo{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

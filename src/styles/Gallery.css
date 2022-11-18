@@ -1,0 +1,109 @@
+
+.gallery{
+    margin-top: 60px !important;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid green; */
+    width: 85%;
+}
+.gallery-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.pictures{
+height: 300px;
+border-radius: 5px;
+/* border: 1px  solid blue; */
+width: 32%;
+/* filter: grayscale(100); */
+animation: fill 5s linear infinite;
+}
+
+/* @keyframes fill {
+  0% {
+    filter: grayscale(0);
+  }
+  
+  50% {
+    filter: grayscale(100);
+  }
+  
+  100% {
+    filter: grayscale(0);
+  }
+} */
+
+
+.second2{
+    background: url('/src/styles/logo2.png');
+    background-position: center;
+    filter: grayscale(0);
+}
+.first1{
+    background:url('../Img/first1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.first2{
+    background:url('../Img/first2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.first3{
+    background:url('../Img/first3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.second1{
+    background:url('../Img/second1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.second3{
+    background:url('../Img/second3.jpeg');
+    background-size: contain;
+    background-position: center;
+}
+.third1{
+    background:url('../Img/third1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.third2{
+    background:url('../Img/third2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.third3{
+    background:url('../Img/third3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 780px) {
+
+.pictures{
+    height: 120px;
+}
+.second2{
+    background: url('/src/styles/logo2.png');
+    background-position: center;
+    filter: grayscale(0);
+    background-size: contain;
+}
+.gallery h1{
+    font-size: 30px;
+}
+.bandDetails p{
+font-size: 16px !important;
+line-height: 40px;
+}
+.donate-button{
+    font-size: 16px !important;
+}
+
+}

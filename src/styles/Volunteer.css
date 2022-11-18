@@ -1,0 +1,26 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form{
+    margin-bottom: 20px !important;
+}
+label:focus{
+    color: red!important;
+    outline: #009c9c !important; 
+    border: 3px solid red !important;    
+}
+.submit-btn{
+    border: none;
+    background-color: #009c9c;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+border:  2px solid#009c9c;
+}

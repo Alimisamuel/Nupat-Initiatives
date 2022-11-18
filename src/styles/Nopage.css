@@ -1,0 +1,14 @@
+body{
+    /* background: url('./under.png'); */
+   background-color: white;
+}
+.container-Nopage{
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+     background: url('../Img/under.png');
+     background-size: cover;
+     background-position-y: -150px;
+     background-color: white;
+}

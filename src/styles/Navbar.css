@@ -1,0 +1,28 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+
+.active{
+    text-decoration: underline!important;
+    color:#009c9c !important;
+}
+
+
+/* .donate-button{
+    background-color: 
+    #009C9C
+    ;
+}
+Link.hover{
+    color: #009C9C  !important;
+}
+button:hover{
+    color: #009C9C !important;
+    background-color: transparent !important; 
+}
+button:active{
+    color: #009c9c !important;
+} */

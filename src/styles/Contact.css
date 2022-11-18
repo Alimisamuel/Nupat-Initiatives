@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+.contact-container{
+margin: 0 auto;
+width: 85%;
+margin-top: 20px;
+}
+.contact-container h1{
+    font-size: 44px;
+}
+.contact-container p{
+    font-size: 22px;
+    Line-height: 44px;
+}
+.contact-container h3{
+    font-size: 30px;
+}
+.contact{
+   display: flex;
+   justify-content: center; 
+}
+
+@media (max-width: 780px) {
+    .contact-container h1{
+        font-size: 33px;
+    }
+    .contact-container p{
+        font-size: 16px;
+        Line-height: 33px;
+    }
+    .contact-container h3{
+        font-size: 20px;
+    }
+    .contact{
+       display: flex;
+       justify-content: center; 
+    }
+}
